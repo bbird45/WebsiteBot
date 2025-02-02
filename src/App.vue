@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <appNavbar />
+    <router-view />
+    <appFooter />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import appNavbar from './components/appNavbar.vue';  // อัปเดตชื่อไฟล์ที่ถูกต้อง
+import appFooter from './components/appFooter.vue';  // อัปเดตชื่อไฟล์ที่ถูกต้อง
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    appNavbar,  // อัปเดตชื่อ component
+    appFooter   // อัปเดตชื่อ component
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
