@@ -28,26 +28,26 @@ export default {
 }
 
 .qr-image {
-  width: 310px; 
+  width: 300px; 
   height: auto;
-  margin-right: 30px; 
+  margin-right: 50px; 
 }
 
 .line-image {
-  width: 220px; 
+  width: 200px; 
   height: auto;
 }
 
 .scan-message {
-  font-size: 24px; 
+  font-size: 20px; 
   color: #2f89d3; 
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .title {
-  font-size: 32px; 
+  font-size: 30px; 
   color: #2f89d3; 
   font-weight: 900; 
-  margin-bottom: 20px; 
+  margin-bottom: 10px; 
 }
 </style>
