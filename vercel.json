@@ -1,9 +1,15 @@
 {
+    "version": 2,
     "builds": [
-      { "src": "dist/*", "use": "@vercel/static" }
+      {
+        "src": "src/main.js",
+        "use": "@vercel/vue"
+      }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
     ]
   }
-  
