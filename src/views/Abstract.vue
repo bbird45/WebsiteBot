@@ -73,10 +73,10 @@
   .abstract-content {
     font-size: 18px;
     color: #ffffff;
-    text-align: justify; /* ทำให้ข้อความเว้นวรรคเท่ากัน */
+    text-align: justify; 
     line-height: 1.3;
     margin-top: 20px;
     margin-bottom: 15px;
-    white-space: pre-wrap; /* รองรับการเว้นวรรคและขึ้นบรรทัดใหม่ */
+    white-space: pre-wrap; 
   }
   </style>

@@ -1,9 +1,9 @@
 <template>
     <div class="page">
-      <h1>Welcome to BOT FlowCode AI</h1>
-      <p>FlowCode AI is a LINE chatbot that is easy to use and offers a variety of features.</p>
+      <h1 class="title">Welcome to BOT FlowCode AI</h1>
+      <p class="scan-message">Scan the QR code to start using the chatbot.</p>
       <div class="image-container">
-        <img src="@/assets/Qr.png" alt="QR Code" class="qr-image" />
+        <img src="@/assets/LineQr.png" alt="QR Code" class="qr-image" />
         <img src="@/assets/linebot.jpg" alt="LINE Logo" class="line-image" />
       </div>
     </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'ApplicationPage',  // ชื่อคอมโพเนนต์ต้องเป็นหลายคำตามกฎ ESLint
+  name: 'ApplicationPage',
 };
 </script>
 
@@ -28,13 +28,26 @@ export default {
 }
 
 .qr-image {
-  width: 200px; /* ขนาดของรูป QR เพิ่มขึ้นจาก 200px */
+  width: 310px; 
   height: auto;
-  margin-right: 30px; /* เพิ่มระยะห่างระหว่างรูป */
+  margin-right: 30px; 
 }
 
 .line-image {
-  width: 230px; /* ขนาดของรูป LINE เพิ่มขึ้นจาก 150px */
+  width: 220px; 
   height: auto;
+}
+
+.scan-message {
+  font-size: 24px; 
+  color: #2f89d3; 
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 32px; 
+  color: #2f89d3; 
+  font-weight: 900; 
+  margin-bottom: 20px; 
 }
 </style>

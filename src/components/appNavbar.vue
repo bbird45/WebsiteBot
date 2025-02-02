@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar">
     <div class="brand">
-      <!-- เพิ่มรูปภาพที่นี่ -->
       <img src="@/assets/flowcode.jpg" alt="Logo" class="logo" />
       BOT FlowCode AI
     </div>
@@ -24,24 +23,24 @@
 }
 
 .brand {
-  color: white; /* สีขาว */
-  font-size: 24px; /* ขนาดตัวอักษรที่ใหญ่ขึ้น */
-  font-weight: bold; /* ตัวหนา */
+  color: white; 
+  font-size: 24px; 
+  font-weight: bold; 
   display: flex;
-  align-items: center; /* จัดให้อยู่แนวเดียวกัน */
+  align-items: center; 
 }
 
 .logo {
-  width: 160px; /* กำหนดขนาดของรูปภาพ */
-  height: 100px; /* กำหนดขนาดของรูปภาพ */
-  margin-right: 15px; /* เพิ่มระยะห่างระหว่างรูปภาพและข้อความ */
-  border-radius: 10px; /* ทำมุมโค้งมนให้กับรูปภาพ */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* เอฟเฟกต์การเคลื่อนไหวเมื่อ hover */
+  width: 160px; 
+  height: 100px; 
+  margin-right: 15px; 
+  border-radius: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo:hover {
-  transform: scale(1.1); /* ขยายรูปภาพเมื่อ hover */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* เพิ่มเงาให้เด่นขึ้นเมื่อ hover */
+  transform: scale(1.1); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .navbar a {
@@ -54,7 +53,6 @@
   color: rgb(65, 234, 65);
 }
 
-/* เพิ่มขีดเส้นใต้สีเขียว, เปลี่ยนสีตัวหนังสือให้เป็นสีเขียว, เพิ่มขนาดตัวหนังสือและตัวหนา */
 .navbar .active-link {
   border-bottom: 2px solid rgb(65, 234, 65);
   color: rgb(65, 234, 65);
