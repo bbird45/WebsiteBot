@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import appNavbar from './components/appNavbar.vue';  // อัปเดตชื่อไฟล์ที่ถูกต้อง
-import appFooter from './components/appFooter.vue';  // อัปเดตชื่อไฟล์ที่ถูกต้อง
+import appNavbar from './components/appNavbar.vue';  
+import appFooter from './components/appFooter.vue';  
 
 export default {
   components: {
-    appNavbar,  // อัปเดตชื่อ component
-    appFooter   // อัปเดตชื่อ component
+    appNavbar,  
+    appFooter   
   }
 };
 </script>

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Applicationline from '../views/Applicationline.vue';  // อัพเดตเส้นทางให้ถูกต้อง
-import Abstract from '../views/Abstract.vue';      // อัพเดตเส้นทางให้ถูกต้อง
-import Contact from '../views/Contact.vue';        // อัพเดตเส้นทางให้ถูกต้อง
+import Applicationline from '../views/Applicationline.vue';  
+import Abstract from '../views/Abstract.vue';      
+import Contact from '../views/Contact.vue';        
 
 const routes = [
   { path: '/', component: Applicationline },
