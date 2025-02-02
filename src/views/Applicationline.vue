@@ -28,13 +28,13 @@ export default {
 }
 
 .qr-image {
-  width: 300px; 
+  width: 290px; 
   height: auto;
   margin-right: 50px; 
 }
 
 .line-image {
-  width: 200px; 
+  width: 190px; 
   height: auto;
 }
 

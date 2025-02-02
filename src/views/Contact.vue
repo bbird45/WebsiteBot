@@ -3,7 +3,7 @@
       <h1>CONTACT</h1>
       <div class="star-line">
         <span class="star">★</span>
-        <span class="line">-------------</span>
+        <span class="line">-----------------------------</span>
         <span class="star">★</span>
       </div>
       <p class="name">นายทินภัทร แซ่พ่าน</p>
@@ -28,7 +28,7 @@
   
   <style scoped>
   .contact-page {
-    padding: 30px;
+    padding: 20px;
     background-color: #2f89d3;
     border-radius: 20px;
     font-family: 'Arial', sans-serif;
@@ -42,7 +42,7 @@
   
   h1 {
     color: #ffffff;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 900;
     margin: 0;
   }
@@ -54,18 +54,18 @@
   }
   
   .star {
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
   }
   
   .line {
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     margin: 0 10px;
   }
   
   .name {
-    font-size: 26px;
+    font-size: 24px;
     color: #ffffff;
     font-weight: bold;
   }
@@ -77,13 +77,13 @@
   }
   
   .social-media {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .email {
     font-size: 24px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: bold;
   }
   

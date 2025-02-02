@@ -3,7 +3,7 @@
       <h1>ABSTRACT</h1>
       <div class="star-line">
         <span class="star">★</span>
-        <span class="line">-------------</span>
+        <span class="line">-------------------------------</span>
         <span class="star">★</span>
       </div>
       <div class="abstract-content">
@@ -34,21 +34,20 @@
   
   <style scoped>
   .abstract-page {
-    padding: 35px;
+    padding: 20px;
     background-color: #2f89d3;
     border-radius: 20px;
     font-family: 'Arial', sans-serif;
     max-width: 600px;
-    margin: 30px auto;
+    margin: 20px auto;
     box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.3), 0px 10px 20px rgba(8, 19, 174, 0.2);
     text-align: center;
     border: 3px solid #1d75b8;
-    min-height: 100px;
   }
   
   h1 {
     color: #ffffff;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 900;
     margin: 0;
   }
@@ -60,12 +59,12 @@
   }
   
   .star {
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
   }
   
   .line {
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     margin: 0 10px;
   }
